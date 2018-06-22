@@ -1,0 +1,17 @@
+@font-face {font-family: "Yoon Gothic"; src:local, url("/font/Yoon Gothic.woff") format("truetype"); }
+		@font-face {font-family: "bodoni"; src:local, url("/font/bodoni.ttf") format("truetype");}
+
+		* {margin:0; padding: 0;}
+
+		body{text-align: center;  background-color: #3a3434;}
+		nav {width: 1400px; height: 300px; margin: auto; z-index: 9999; font-family: "bodoni", serif;  position: absolute;  text-decoration: none;}
+		img {width: 100%;}
+
+		.back {margin:auto;}
+		.main ul {list-style: none; float: right; padding-right: 100px; padding-top: 50px;}
+		.main il a {font-weight: 700; font-size: 1.3em;text-decoration: none; color: #e7e3cd; padding: 25px;}
+		.main il a:hover {color: #868370;}
+
+		#back1{ background: url('./img/back.png'); background-size: 100% auto; width:1400px; height: 790px; }
+		#logo {width: 60px; height: 54px; float: left; padding-top: 30px; padding-left: 50px;}
+		.container {color: red; max-width: 1400px; height: 790px; position: relative; overflow: hidden;}
